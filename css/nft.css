@@ -1,0 +1,124 @@
+.nft .project-filter {
+    margin-bottom: 14px;
+}
+.nft .project-filter li.on {
+    background: #fff;
+    font-weight: bold;
+}
+.nft .project-filter li {
+    display: inline-flex;
+    background: none;
+    margin-right: 14px;
+}
+.nft .nft-card-container {
+    flex-wrap : wrap;
+}
+.nft .nft-card {
+    width: calc(20% - 12px);
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.nft .nft-card img {
+    width: 100%;
+}
+.nft .nft-card:nth-child(5n) {
+    margin-right: 0;
+}
+.nft .nft-card:last-child {
+    display: none;
+}
+
+
+.nft .m-nft-card-container {
+    position: relative;
+    display: none;
+    flex-wrap : wrap;
+    flex-direction: row;
+}
+.nft .m-nft-card {
+    width: calc(50% - 6px);
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.nft .m-nft-card:nth-child(3),
+.nft .m-nft-card:nth-child(5) {
+    margin-right: 0;
+}
+.nft .m-nft-card-container .more {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 104px;
+    padding: 0 20px;
+    margin-left: -20px;
+    background: linear-gradient(180deg, rgba(248, 248, 248, 0) 0%, #F8F8F8 18.27%);
+}
+.nft .m-nft-card-container .more span {
+    line-height: 104px;
+}
+.nft .nft-card-container {
+    display: flex;
+}
+.nft .m-nft-card-container {
+    display: none;
+}
+
+.nodata-text{
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7A797D;
+    text-align: center;
+}
+
+
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+
+    .nft .nft-card-container {
+        display: none;
+    }
+    .nft .m-nft-card-container {
+        display: flex;
+    }
+
+
+
+    .nft .nft-card {
+        width: calc(50% - 6px);
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+    .nft .nft-card img {
+        width: 100%;
+    }
+    .nft .nft-card:nth-child(5n) {
+        margin-right: 12px;
+    }
+    .nft .nft-card:nth-child(2n) {
+        margin-right: 0px;
+    }
+    .nft .nft-card:last-child {
+        display: none;
+    }
+
+    .nft .project-filter{
+        width: 100%;
+        overflow: auto;
+        display: inline-table;
+        position: relative;
+    }
+
+    .project-filter .filter-over{
+        display: block;
+        position: absolute;
+        right: 0;
+        top:0;
+        z-index: 1;
+    }
+}
+
+

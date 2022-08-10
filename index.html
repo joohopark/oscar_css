@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OSCAR</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./icon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./icon/favicon-152.png">
+    <link rel="icon" href="./icon/favicon-16.png" sizes="16x16">
+    <link rel="icon" href="./icon/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="./icon/favicon-48.png" sizes="48x48">
+    <link rel="icon" href="./icon/favicon-64.png" sizes="64x64">
+    <link rel="icon" href="./icon/favicon-128.png" sizes="128x128">
+</head>
+<body>
+    <div class="wrap">
+        <nav id="nav">
+            <div class="nav-top">
+                <h1><a href="index.html">
+                    <img class="logo-img" src="./img/logo.svg" alt="OSCAR"/>
+                    <span>OSCAR</span></a>
+                </h1>
+                <img class="nav-close" src="img/close.svg" alt="닫기"/>
+            </div>
+            <ul id="lnb">
+                <li class="show"><a class="depth1" href="index.html">
+                    <img class="nav-icon" src="./img/category.svg" alt="대시보드"/>
+                    <span class="menu">대시보드</span></a>
+                </li>
+                <li><a class="depth1" href="#">
+                    <img class="nav-icon" src="./img/buy-crypto.svg" alt="프로젝트"/>
+                    <span class="menu">내 프로젝트</span></a>
+                </li>
+                <li><a class="depth1" href="#">
+                    <img class="nav-icon" src="./img/wallet.svg" alt="지갑"/>
+                    <span class="menu">내 지갑</span></a>
+                    <img class="depth-icon" src="./img/arrow.svg" alt="depth"/>
+                    <ul class="depth2">
+                        <li><a href="my-wallet.html"><span>계정관리</span></a></li>
+                        <li><a href="#"><span>거래내역</span></a></li>
+                    </ul>
+                </li>
+                <li><a class="depth1" href="nft.html">
+                    <img class="nav-icon" src="./img/nft.svg" alt="NFT"/>
+                    <span class="menu">NFT 관리</span></a>
+                </li>
+            </ul>
+            <div class="mobile">
+<!--                <img class="mobile-top-icon" src="./img/search.svg" alt="검색"/>-->
+                <img class="mobile-top-icon" src="./img/bell-off.svg" alt="알림"/>
+                <img class="mobile-top-icon" src="./img/setting.svg" alt="설정"/>
+            </div>
+        </nav>
+        <main>
+            <header id="header">
+                <div class="search-bar">
+                    <img class="search-icon" src="./img/search.svg" alt="검색"/>
+                    <input type="search" placeholder="Search Project, Ticker, Collection and Account.." />
+                </div>
+                <div class="header-right">
+                    <div><img class="header-icon" src="./img/bell-on.svg" alt="알림"/></div>
+                    <div><img class="header-icon" src="./img/setting.svg" alt="설정"/></div>
+                </div>
+            </header>
+            <section class="content">
+                <section id="section1">
+                    <div class="s-title">
+                        <h3>신규 프로젝트</h3>
+                        <span>더 보기</span>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <img src="./img/percent.svg"/>
+                            </div>
+                            <div class="card-bottom">
+                                <img src="./img/card-icon-1.svg"/>
+                                <img src="./img/card-icon-2.svg"/>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <img src="./img/percent.svg"/>
+                            </div>
+                            <div class="card-bottom">
+                                <img src="./img/card-icon-1.svg"/>
+                                <img src="./img/card-icon-2.svg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <p>Discover, Create and Sell<br>Your Own NFT.</p>
+                        <div class="ad-icon"><span>AD</span></div>
+                    </div>
+                </section>
+                <section id="section2">
+                    <div class="s-title">
+                        <h3>인기 프로젝트</h3>
+                        <span>더 보기</span>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>18.3%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <img src="./img/card-icon-1.svg"/>
+                                <img src="./img/card-icon-2.svg"/>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>18.3%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <img src="./img/card-icon-1.svg"/>
+                                <img src="./img/card-icon-2.svg"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="section3">
+                    <div class="s-title">
+                        <h3>관심있을 뉴스</h3>
+                        <span>더 보기</span>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>0.1%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-line"><span>CJ ENM은 2022년 7월 4일 샌드박스(The Sandbox)의 가상 부동산 플랫폼 '랜드'를 통한 K-콘텐츠 메타버스 구축을 위해 파트너십을 체결했다고 밝혔습니다.</span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>0.1%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-line"><span>CJ ENM은 2022년 7월 4일 샌드박스(The Sandbox)의 가상 부동산 플랫폼 '랜드'를 통한 K-콘텐츠 메타버스 구축을 위해 파트너십을 체결했다고 밝혔습니다.</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <p>Discover, Create and Sell<br>Your Own NFT.</p>
+                        <div class="ad-icon"><span>AD</span></div>
+                    </div>
+                </section>
+                <section id="section4">
+                    <div class="s-title">
+                        <h3>카테고리</h3>
+                        <span>더 보기</span>
+                    </div>
+                    <ul class="s-filter">
+                        <li class="show"><a href=""><span>All</span></a></li>
+                        <li><a href="#"><span>Art</span></a></li>
+                        <li><a href="#"><span>Game</span></a></li>
+                        <li><a href="#"><span>Music</span></a></li>
+                        <li><a href="#"><span>Utility</span></a></li>
+                    </ul>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>0.1%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <ul class="card-tag">
+                                    <li><a href="#"><span>#게임</span></a></li>
+                                    <li><a href="#"><span>#블록체인</span></a></li>
+                                    <li><a href="#"><span>#메타버스</span></a></li>
+                                    <li><a href="#"><span>#인공지능</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-top">
+                                <span>The SANDBOX</span>
+                                <div><img src="./img/plus.svg" alt="+"/></div>
+                            </div>
+                            <h5>SAND</h5>
+                            <div class="card-center">
+                                <span>1,265 KRW</span>
+                                <div class="percent">
+                                    <img src="./img/triangle.svg"/>
+                                    <span>0.1%</span>
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <ul class="card-tag">
+                                    <li><a href="#"><span>#게임</span></a></li>
+                                    <li><a href="#"><span>#블록체인</span></a></li>
+                                    <li><a href="#"><span>#메타버스</span></a></li>
+                                    <li><a href="#"><span>#인공지능</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="footer">
+            <ul>
+                <li class="show"><a href="index.html">
+                    <img class="m-nav-icon" src="./img/category.svg" alt="대시보드"/>
+                    <span class="m-menu">Dashboard</span></a>
+                </li>
+                <li><a href="#">
+                    <img class="m-nav-icon" src="./img/buy-crypto.svg" alt="프로젝트"/>
+                    <span class="m-menu">My app</span></a>
+                </li>
+                <li><a href="my-wallet.html">
+                    <img class="m-nav-icon" src="./img/wallet.svg" alt="지갑"/>
+                    <span class="m-menu">My wallet</span></a>
+                </li>
+                <li><a href="nft.html">
+                    <img class="m-nav-icon" src="./img/nft.svg" alt="NFT"/>
+                    <span class="m-menu">NFT</span></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
